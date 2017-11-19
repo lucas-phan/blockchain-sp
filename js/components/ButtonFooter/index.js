@@ -44,7 +44,7 @@ class ButtonFooter extends Component {
               onPress={() => navigate('Home')}
             >
               <Icon active={routeName==='Home'?true:false} name="home" />
-              <Text style={styles.btnFont}>Trang chủ</Text>
+              <Text style={styles.btnFont}>Home</Text>
             </Button>
 
             <Button
@@ -57,11 +57,11 @@ class ButtonFooter extends Component {
                   <Text style={styles.btnBadge}>{this.props.cartNumber?this.props.cartNumber:this.state.cartArray.length}</Text>
             </Badge>
               <Icon active={routeName==='Cart'?true:false} name="cart" />
-              <Text style={styles.btnFont}>Giỏ hàng</Text>
+              <Text style={styles.btnFont}>Cart</Text>
             </Button>
             <Button active={routeName==='CheckOrders'?true:false} onPress={() => navigate('CheckOrders')}>
               <Icon active={routeName==='CheckOrders'?true:false} name="ios-checkmark-circle" />
-              <Text style={styles.btnFont}>Đơn hàng</Text>
+              <Text style={styles.btnFont}>Check</Text>
             </Button>
           </FooterTab>
         </Footer>

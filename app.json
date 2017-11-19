@@ -1,15 +1,20 @@
 {
   "expo": {
-    "name": "Shop 10k",
-    "icon": "./js/assets/shop10k.png",
-    "version": "0.0.4",
-    "slug": "shop-10k-vn",
+    "name": "Blockchain App",
+    "icon": "./js/assets/icon-app.png",
+    "privacy": "public",
+    "orientation": "portrait",
+    "version": "1.0.0",
+    "slug": "blockchain-app",
     "sdkVersion": "21.0.0",
     "ios": {
-      "bundleIdentifier": "vn.shop10k.shop10k"
+      "bundleIdentifier": "com.applucas.blockchain"
     },
     "android": {
-      "package": "vn.shop10k.shop10k"
+      "package": "com.applucas.blockchai"
+    },
+    "loading": {
+      "icon": "./js/assets/icon-loadding.png"
     }
   }
 }

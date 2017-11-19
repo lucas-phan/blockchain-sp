@@ -17,64 +17,52 @@ import styles from './style';
 
 const drawerCover = require('../../assets/drawer-cover.png');
 
-const drawerImage = require('../../assets/logo-shop10k.png');
+const drawerImage = require('../../assets/logo-blockchain.png');
 
 const datas = [
 
 	{
-		name: 'Trang chủ',
+		name: 'Home',
 		route: 'Home',
 		icon: 'home',
 		bg: '#C5F442',
 	},
 	{
-		name: 'Danh mục',
+		name: 'Categories',
 		route: 'ListCat',
 		icon: 'folder',
 		bg: '#C5F442',
 	},
 	{
-		name: 'Khuyến mãi',
+		name: 'Promotions',
 		route: 'Promotions',
 		icon: 'md-notifications',
 		bg: '#C5F442',
 	},
 	{
-		name: 'Sự kiện',
+		name: 'Events',
 		route: 'Events',
 		icon: 'ios-alarm',
 		bg: '#C5F442',
 	},
-	// {
-	// 	name: 'Chi nhánh',
-	// 	route: 'Branch',
-	// 	icon: 'md-cafe',
-	// 	bg: '#C5F442',
-	// },
 	{
-		name: 'Hỗ trợ',
+		name: 'Support',
 		route: 'Support',
 		icon: 'ios-football',
 		bg: '#C5F442',
 	},
 	{
-		name: 'Giỏ hàng',
+		name: 'Cart',
 		route: 'Cart',
 		icon: 'cart',
 		bg: '#C5F442',
 	},
 	{
-		name: 'Kiểm tra đơn hàng',
+		name: 'Check orders',
 		route: 'CheckOrders',
 		icon: 'ios-checkmark-circle',
 		bg: '#C5F442',
-	},
-	// {
-	// 	name: 'Cài đặt',
-	// 	route: 'Setting',
-	// 	icon: 'ios-settings',
-	// 	bg: '#C5F442',
-	// },
+	}
 
 ];
 

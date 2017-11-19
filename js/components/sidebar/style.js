@@ -24,8 +24,8 @@ export default {
     left: Platform.OS === "android" ? deviceWidth / 10 : deviceWidth / 9,
     // top: (Platform.OS === 'android') ? 45 : 55,
     top: Platform.OS === "android" ? deviceHeight / 13 : deviceHeight / 12,
-    width: 178,
-    height: 93,
+    width: 128,
+    height: 128,
     resizeMode: "cover"
   },
   listItemContainer: {

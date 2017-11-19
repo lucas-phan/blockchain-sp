@@ -89,7 +89,7 @@ class Home extends Component {
 						</Button>
 					</Left>
 					<Body>
-						<Title>Trang chủ</Title>
+						<Title>Home</Title>
 					</Body>
 					<Right />
 				</Header>
